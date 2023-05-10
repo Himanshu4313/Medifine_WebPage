@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+/* HEADER SECTOPN CSS STYLE */
+.header-section {
+  padding: 0px 45px;
+}
+
+.navbar-link-container ul li a.active{
+   color: #20bc7e;
+   text-decoration: underline;
+}
+.navbar-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImage a img {
+  padding: 15px 25px;
+}
+
+.navbar-link-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-link-container ul li {
+  padding: 15px 25px;
+  list-style: none;
+}
+
+.navbar-link-container ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navbar-link-container ul li a:hover {
+  font-weight: bold;
+  color: #20bc7e;
+}
+
+/*About us css style  */
+.aboutContent-section {
+  height: 80vh;
+  /* background-color: red; */
+  padding: 130px 0px;
+}
+.aboutContent-container {
+  width: 50vw;
+  margin: auto;
+}
+
+.aboutContent-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #20bc7e;
+}
+
+.aboutContent-container p {
+  text-align: center;
+  padding: 25px 46px;
+  font-weight: 500;
+}
+
+.box-container div {
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+   padding-top: 40px;
+  padding-bottom: 5px;
+}
+.box-container span {
+  font-size: 20px;
+  font-weight: 800;
+  color: #20bc7e;
+}
+.box-container h3 {
+  font-weight: 600;
+}
+.doctors {
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.customers {
+  padding: 10px 35px;
+  text-align: center;
+}
+
+.students {
+  padding: 10px 35px;
+  text-align: center;
+}

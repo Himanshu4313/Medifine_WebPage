@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font style link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@300&family=Lato:ital,wght@1,300&family=Manrope:wght@400;500;700;800&family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- adding css file -->
+    <link rel="stylesheet" href="./contactUs.css" />
+    <title>Medifine | ContactUs Page</title>
+  </head>
+  <body>
+    <!-- ContactUs Page Section -->
+    <!-- header -->
+    <header class="header-section">
+      <!-- Navbar -->
+      <nav class="navbar-link-container">
+        <div class="logoImage">
+          <a href="#">
+            <img src="./assets/image/logo.png" alt="logoImage" title="Logo" />
+          </a>
+        </div>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./aboutUs.html">About Us</a></li>
+          <li><a href="./contactUs.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- contact Us page  Section -->
+    <!-- contact form section -->
+    <!-- form - method 
+        (1) method="get".
+        (2)method="post"   
+    -->
+    <form action=" " method="post">
+     
+      <h1>Contact Form</h1>
+      <div class="forName">
+        <label for="name">Name</label>
+        <br />
+        <input
+          type="text"
+          name="userName"
+          id="name"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="forEmail">
+        <label for="email" id="Email">Email</label>
+        <br />
+        <input
+          type="email"
+          name="userEmail"
+          id="email"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="forMessage">
+        <label for="message">Message</label>
+        <br />
+        <textarea
+          name="message"
+          id="message"
+          cols="23"
+          rows="4"
+          placeholder="Enter your message..."
+        ></textarea>
+      </div>
+      <div class="forSubmit">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

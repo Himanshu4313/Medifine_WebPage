@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* HEADER SECTOPN CSS STYLE */
+.header-section {
+  padding: 0px 45px;
+}
+
+.navbar-link-container ul li a.active{
+  color: #20bc7e;
+  text-decoration: underline;
+}
+.navbar-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImage a img {
+  padding: 15px 25px;
+}
+
+.navbar-link-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-link-container ul li {
+  padding: 15px 25px;
+  list-style: none;
+}
+
+.navbar-link-container ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navbar-link-container ul li a:hover {
+  font-weight: bold;
+  color: #20bc7e;
+}
+
+/* HEROS SECTION CSS STYLE */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* height: 120vh; */
+}
+
+/* left side of the heros section */
+
+.stethoscopeImage {
+  position: absolute;
+  width: 45vw;
+  top: 40px;
+  left: 250px;
+}
+.left-side {
+  padding-left: 70px;
+  padding-bottom: 170px;
+}
+.left-side > img {
+  width: 25px;
+}
+
+.left-side h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+}
+
+.left-side p {
+  padding: 12px 0px 18px 0px;
+  font-weight: 600;
+  color: #7f7c7c;
+}
+.left-side div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  height: 9vh;
+}
+
+.left-side button {
+  color: white;
+  border: none;
+  padding: 13px 40px;
+  border-radius: 40px;
+  background-color: #20bc7e;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.appointment-btn:hover {
+  background-color: #f0f4f5;
+  color: rgb(35, 34, 34);
+  border: 3px solid #20bc7e;
+  cursor: pointer;
+}
+
+#bottomImage {
+  width: 25px;
+}
+
+#mouseImage {
+  width: 45px;
+  padding-left: 15px;
+  position: relative;
+  top: 30px;
+}
+/* right side of the heros section */
+
+.greenbox > img {
+  width: 28vw;
+  position: relative;
+  top: 126px;
+  left: 41px;
+}
+
+.yellowbox > img {
+  width: 25vw;
+  position: relative;
+  top: -248px;
+  left: 86px;
+}
+
+.doctorImage > img {
+  width: 30vw;
+  position: absolute;
+  top: 60px;
+  right: 5px;
+}
